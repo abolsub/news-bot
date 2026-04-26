@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>خبرخوان خودکار</title>
+    <title>خبرخوان خودکار (آفلاین)</title>
     <style>
         * {
             margin: 0;
@@ -40,6 +39,16 @@
         .last-updated {
             color: #666;
             font-size: 14px;
+        }
+        
+        .size-warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            color: #856404;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 12px;
         }
         
         .tabs {
@@ -150,13 +159,23 @@
             margin-bottom: 20px;
             text-align: center;
         }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>📰 خبرخوان خودکار</h1>
+            <h1>📰 خبرخوان خودکار (آفلاین)</h1>
             <div class="last-updated" id="lastUpdated">در حال بارگذاری...</div>
+            <div class="size-warning" id="sizeWarning" style="display:none;">
+                ⚠️ حجم فایل اخبار زیاد است. ممکن است بارگذاری کند باشد.
+            </div>
         </header>
         
         <div class="tabs">
@@ -168,7 +187,7 @@
         <div class="stats" id="stats"></div>
         
         <div class="news-grid" id="newsGrid">
-            <p>در حال بارگذاری اخبار...</p>
+            <div class="loading">📡 در حال بارگذاری اخبار...</div>
         </div>
     </div>
     
@@ -179,12 +198,23 @@
         async function loadNews() {
             try {
                 const response = await fetch('news.json');
-                newsData = await response.json();
+                const data = await response.json();
+                newsData = data;
                 displayNews('all');
                 updateStats();
-                document.getElementById('lastUpdated').innerHTML = `آخرین بروزرسانی: ${new Date(newsData.last_updated).toLocaleString('fa-IR')}`;
+                
+                const updateDate = new Date(newsData.last_updated);
+                document.getElementById('lastUpdated').innerHTML = `آخرین بروزرسانی: ${updateDate.toLocaleString('fa-IR')}`;
+                
+                // بررسی حجم فایل (تقریبی)
+                const jsonStr = JSON.stringify(newsData);
+                const sizeMB = (jsonStr.length / (1024 * 1024)).toFixed(2);
+                if (sizeMB > 4) {
+                    document.getElementById('sizeWarning').style.display = 'block';
+                    document.getElementById('sizeWarning').innerHTML = `⚠️ حجم فایل اخبار: ${sizeMB} مگابایت. بارگذاری ممکن است کند باشد.`;
+                }
             } catch (error) {
-                document.getElementById('newsGrid').innerHTML = '<p>خطا در بارگذاری اخبار. لطفاً دوباره تلاش کنید.</p>';
+                document.getElementById('newsGrid').innerHTML = '<div class="loading">❌ خطا در بارگذاری اخبار. لطفاً دوباره تلاش کنید.</div>';
                 console.error(error);
             }
         }
@@ -193,8 +223,8 @@
             if (!newsData) return;
             const statsHtml = `
                 📊 مجموع اخبار: ${newsData.total_news} | 
-                🌍 جهان: ${newsData.world_news.length} | 
-                🇮🇷 ایران: ${newsData.iran_news.length}
+                🌍 جهان: ${newsData.world_news_count} | 
+                🇮🇷 ایران: ${newsData.iran_news_count}
             `;
             document.getElementById('stats').innerHTML = statsHtml;
         }
@@ -216,18 +246,18 @@
             else if (tab === 'iran') newsList = newsData.iran_news;
             
             if (newsList.length === 0) {
-                document.getElementById('newsGrid').innerHTML = '<p>هیچ خبری یافت نشد.</p>';
+                document.getElementById('newsGrid').innerHTML = '<div class="loading">📭 هیچ خبری یافت نشد.</div>';
                 return;
             }
             
             const newsHtml = newsList.map(news => `
                 <div class="news-card" onclick="window.open('${news.link}', '_blank')">
-                    ${news.image ? 
-                        `<img src="${news.image}" class="news-image" alt="${news.title}" onerror="this.src='';">` : 
+                    ${news.image_base64 ? 
+                        `<img src="${news.image_base64}" class="news-image" alt="${escapeHtml(news.title)}">` : 
                         `<div class="no-image">📰</div>`
                     }
                     <div class="news-content">
-                        <span class="news-source">${news.source}</span>
+                        <span class="news-source">${escapeHtml(news.source)}</span>
                         <div class="news-title">${escapeHtml(news.title)}</div>
                         <div class="news-summary">${escapeHtml(news.summary)}</div>
                         <div class="news-date">📅 ${new Date(news.published).toLocaleDateString('fa-IR')}</div>
@@ -239,6 +269,7 @@
         }
         
         function escapeHtml(text) {
+            if (!text) return '';
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
@@ -247,8 +278,8 @@
         // بارگذاری اولیه
         loadNews();
         
-        // بروزرسانی هر 5 دقیقه
-        setInterval(loadNews, 300000);
+        // بروزرسانی هر 10 دقیقه
+        setInterval(loadNews, 600000);
     </script>
 </body>
 </html>
