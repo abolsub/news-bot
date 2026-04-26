@@ -1,246 +1,669 @@
 {
-  "last_updated": "2026-04-26T12:50:02.562109",
+  "last_updated": "2026-04-26T13:02:12.791789",
   "total_news": 30,
-  "news": [
+  "world_news": [
     {
-      "source": "BBC News",
-      "title": "Watch: How gunfire sparked chaos at Trump press dinner",
-      "link": "https://www.bbc.com/news/videos/cgqkq18qqeeo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 09:43:42 GMT",
-      "summary": "President Trump and Vice-President Vance were rushed off the stage, after gunshots were heard at the event at the Washington Hilton hotel.",
-      "fetched_at": "2026-04-26T12:50:01.452159"
+      "id": "0ac2632cdba3d95747411570d424a316",
+      "source": "The Guardian",
+      "category": "world",
+      "title": "British woman died in Ghana trying to recoup money from scammers, inquest told",
+      "link": "https://www.theguardian.com/uk-news/2026/apr/22/british-woman-died-in-ghana-trying-to-recoup-money-from-scammers-inquest-told",
+      "published": "Wed, 22 Apr 2026 16:13:00 GMT",
+      "summary": "<p>Janet Fordham died in crash after travelling to see man who claimed he would help to recover money from earlier scams</p><p>A British woman who was scammed out of up to £1m in a string of so-called romance frauds died in a road crash after travelling to west Africa to try to recoup some of her lo...",
+      "image": "https://i.guim.co.uk/img/media/16209a506c11d1509d1083ae98489af2d6617fdf/192_0_705_564/master/705.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=64a8795f71575b2bd568089dc35a5db6",
+      "fetched_at": "2026-04-26T13:02:08.835078"
     },
     {
-      "source": "BBC News",
-      "title": "Suspected gunman identified as 31-year-old Californian",
-      "link": "https://www.bbc.com/news/articles/cr717nglye0o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 09:37:39 GMT",
-      "summary": "The man arrested at the event attended by President Trump has been named in US media as Cole Tomas Allen from California.",
-      "fetched_at": "2026-04-26T12:50:01.452173"
+      "id": "dd002be6ebeb471976d84bf6387686bf",
+      "source": "The Guardian",
+      "category": "world",
+      "title": "Heatwaves, floods and wildfires pose rising threat to democracy, report finds",
+      "link": "https://www.theguardian.com/global-development/2026/apr/22/climate-change-extreme-weather-heatwaves-floods-wildfires-threat-democracy-elections",
+      "published": "Wed, 22 Apr 2026 05:00:09 GMT",
+      "summary": "<p>Research shows natural hazards linked to climate crisis disrupted 23 elections in 18 countries in 2024</p><p>Democracy is under mounting threat from the climate crisis, with new analysis documenting how elections are increasingly shaped not only by political forces but also by floods, wildfires a...",
+      "image": "https://i.guim.co.uk/img/media/adfe0d3b34829cc18f9724cb8981307dc8eafa02/338_0_4677_3744/master/4677.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=98aa7ab8b3967f7cb6b624ca843ce12a",
+      "fetched_at": "2026-04-26T13:02:09.043377"
     },
     {
-      "source": "BBC News",
-      "title": "Higher prices could last for eight months after Iran war, minister says",
-      "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 09:54:53 GMT",
-      "summary": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
-      "fetched_at": "2026-04-26T12:50:01.452179"
+      "id": "69f8c88dd2598af1a22ae776257c624f",
+      "source": "CNN",
+      "category": "world",
+      "title": "What to know about the Trump indictment on the eve of his court appearance",
+      "link": "https://www.cnn.com/collections/intl-trump-040223/",
+      "published": "Wed, 05 Apr 2023 22:50:06 GMT",
+      "summary": "",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:09.743388"
     },
     {
+      "id": "d01a2eb4219ac7db6793013ff5e37b40",
+      "source": "CNN",
+      "category": "world",
+      "title": "Haberman reveals why Trump attacked judge and his family in speech",
+      "link": "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+      "published": "Wed, 05 Apr 2023 13:30:09 GMT",
+      "summary": "CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230405085526-maggie-haberman.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:09.459543"
+    },
+    {
+      "id": "2e98a31da32b03f58d2c0b160f995254",
+      "source": "The Independent",
+      "category": "world",
+      "title": "Two potatoes and seven cubes of tuna: The bad hospital food ‘hampering’ patients’ recovery",
+      "link": "https://www.independent.co.uk/news/uk/home-news/nhs-hospital-food-waste-nutrition-b2877498.html",
+      "published": "Sun, 26 Apr 2026 12:51:15 GMT",
+      "summary": "<p>Patients tell Jane Dalton of their horrifying experiences as figures show the amount of NHS food being wasted is on the rise </p>",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/03/11/jane-dalton.png?quality=75&width=137&auto=webp",
+      "fetched_at": "2026-04-26T13:02:11.130510"
+    },
+    {
+      "id": "3ad4622bc987a8720c83a533b3fedbd3",
       "source": "BBC News",
+      "category": "world",
       "title": "Sabastian Sawe smashes two-hour barrier to make history at London Marathon",
       "link": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 26 Apr 2026 12:39:49 GMT",
       "summary": "Sabastian Sawe makes history at the London Marathon as the first person to run a sub-two-hour marathon in a competitive race.",
-      "fetched_at": "2026-04-26T12:50:01.452183"
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b5ee/live/d37abd10-1d33-11f1-801d-ed3cff6bf876.jpg",
+      "fetched_at": "2026-04-26T13:02:07.318411"
     },
     {
+      "id": "a893b89cd48b54111961d7860ebbcb6c",
+      "source": "Al Jazeera English",
+      "category": "world",
+      "title": "Syria puts first Assad-era official on trial in Damascus",
+      "link": "https://www.aljazeera.com/news/2026/4/26/syria-puts-al-assad-era-officials-on?traffic_source=rss",
+      "published": "Sun, 26 Apr 2026 12:31:50 +0000",
+      "summary": "Atef Najib, ex-head of political security in Deraa province, is charged with &#039;crimes against the Syrian people&#039;.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-26T083517Z_1105078244_RC2WWKAW30O3_RTRMADP_3_SYRIA-POLITICS-TRIAL-1777201890.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.513283"
+    },
+    {
+      "id": "9ce997ae4c2c0904fc543b02a9ecdce5",
+      "source": "The Independent",
+      "category": "world",
+      "title": "King’s security for US state visit to be reviewed after shooting at Trump dinner",
+      "link": "https://www.independent.co.uk/news/uk/politics/donald-trump-shooting-king-charles-state-visit-b2965101.html",
+      "published": "Sun, 26 Apr 2026 12:12:51 GMT",
+      "summary": "<p>Buckingham Palace said talks are taking place to review ‘what degree the events of Saturday evening may or may not impact on the operational planning for the visit’</p>",
+      "image": "https://static.independent.co.uk/2026/04/23/17/2235470983.jpg",
+      "fetched_at": "2026-04-26T13:02:11.239541"
+    },
+    {
+      "id": "3010b334c0ae77d9fc5c9e256a81b83b",
+      "source": "The Independent",
+      "category": "world",
+      "title": "Girl, 6, dies after two children hit by car in Scottish town",
+      "link": "https://www.independent.co.uk/news/uk/home-news/paisley-renfrewshire-police-incident-b2965154.html",
+      "published": "Sun, 26 Apr 2026 12:08:09 GMT",
+      "summary": "<p>The six-year-old was pronounced dead at the scene</p>",
+      "image": "https://static.independent.co.uk/2026/04/18/17/5beb48d693edde87c32926e415fbfd3cY29udGVudHNlYXJjaGFwaSwxNzc2NjEyMDYw-2.49332281.jpg",
+      "fetched_at": "2026-04-26T13:02:11.352991"
+    },
+    {
+      "id": "e77065792e76cb0c8b75d9587f6dddd7",
+      "source": "The Independent",
+      "category": "world",
+      "title": "‘Very reasonable’ for King Charles to speak to Trump about Falklands row",
+      "link": "https://www.independent.co.uk/news/uk/politics/king-charles-trump-falklands-starmer-row-b2965150.html",
+      "published": "Sun, 26 Apr 2026 11:53:17 GMT",
+      "summary": "<p>Downing Street has insisted the islands’ sovereignty is ‘not in question’, but Argentina has renewed calls for talks with the UK over the Falklands</p>",
+      "image": "https://static.independent.co.uk/2026/04/23/18/fd36bb5788ca0f2331f67fbc92c0e54bY29udGVudHNlYXJjaGFwaSwxNzc3MDUwMTQ1-2.81662999.jpg",
+      "fetched_at": "2026-04-26T13:02:11.394500"
+    },
+    {
+      "id": "65f05d1764eca7a79cecdcffc5f6938d",
       "source": "BBC News",
+      "category": "world",
       "title": "Palace holding talks over plans for King's US visit after Washington shooting",
       "link": "https://www.bbc.com/news/articles/cz0e0rn179eo?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 26 Apr 2026 11:45:06 GMT",
       "summary": "The King is \"being kept fully informed of developments\" after the shooting, Buckingham Palace says.",
-      "fetched_at": "2026-04-26T12:50:01.452188"
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0e0d/live/dd4fe010-414e-11f1-9d1f-0d69b57ee6a5.jpg",
+      "fetched_at": "2026-04-26T13:02:07.376212"
     },
     {
-      "source": "BBC News",
-      "title": "I didn't tell my boyfriend my age when we started dating. I worried he might end things",
-      "link": "https://www.bbc.com/news/articles/cz67vwd63wwo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 25 Apr 2026 23:03:01 GMT",
-      "summary": "Two couples tell BBC News about overcoming social stigma in their age-gap relationships.",
-      "fetched_at": "2026-04-26T12:50:01.452192"
+      "id": "c070590aca88903a13ef8e363c9d6511",
+      "source": "The Independent",
+      "category": "world",
+      "title": "Starmer insists ‘vast majority’ of Labour MPs support him despite Mandelson scandal",
+      "link": "https://www.independent.co.uk/news/uk/politics/keir-starmer-peter-mandelson-labour-mps-b2965148.html",
+      "published": "Sun, 26 Apr 2026 11:39:57 GMT",
+      "summary": "<p>As the prime minister faces existential questions about his future in power, he said he still believes he can win the next election</p>",
+      "image": "https://static.independent.co.uk/2026/04/26/11/01440fd50eaccf51648403ef26ea10e0Y29udGVudHNlYXJjaGFwaSwxNzc3Mjg0MTUz-2.84380832.jpg",
+      "fetched_at": "2026-04-26T13:02:11.501721"
     },
     {
-      "source": "BBC News",
-      "title": "In pictures: Chaos as gunfire heard in Washington DC ballroom",
-      "link": "https://www.bbc.com/news/articles/cgk0ky5zgvlo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 06:24:33 GMT",
-      "summary": "Armed Secret Service agents flood the ballroom of a Washington DC hotel as President Trump is rushed off stage.",
-      "fetched_at": "2026-04-26T12:50:01.452197"
-    },
-    {
-      "source": "BBC News",
-      "title": "What we know about the incident",
-      "link": "https://www.bbc.com/news/articles/cdxd1x2qw2go?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 08:05:41 GMT",
-      "summary": "Donald Trump and First Lady Melania Trump were rushed from a ballroom after gunfire was heard.",
-      "fetched_at": "2026-04-26T12:50:01.452202"
-    },
-    {
-      "source": "BBC News",
-      "title": "Shooting raises questions about Trump security",
-      "link": "https://www.bbc.com/news/articles/c2484nln8zeo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 12:07:39 GMT",
-      "summary": "The shooting at the White House correspondents' dinner is the third time in three years Trump has been at the centre of a major security incident.",
-      "fetched_at": "2026-04-26T12:50:01.452206"
-    },
-    {
-      "source": "BBC News",
-      "title": "I was in the room with Trump and heard the low thudding sound of gunfire",
-      "link": "https://www.bbc.com/news/articles/c62j23wzeqeo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 26 Apr 2026 04:22:59 GMT",
-      "summary": "The BBC's Gary O'Donoghue describes the moment he and others dived for cover as shots rang out at the venue.",
-      "fetched_at": "2026-04-26T12:50:01.452214"
-    },
-    {
+      "id": "94cce1cdedee9f7f33dc965c2c51e4ca",
       "source": "Al Jazeera English",
+      "category": "world",
       "title": "Kenya’s Sawe is world’s first man to run a sub-two-hour marathon in London",
       "link": "https://www.aljazeera.com/sports/2026/4/26/kenyas-sawe-is-worlds-first-man-to-run-a-sub-two-hour-marathon-in-london?traffic_source=rss",
       "published": "Sun, 26 Apr 2026 11:27:52 +0000",
       "summary": "Sebastian Sawe breaks Kelvin Kiptum’s previous world record of 2:00:35; Ethiopia&#039;s Assefa retains her women&#039;s crown.",
-      "fetched_at": "2026-04-26T12:50:01.675610"
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-26T110050Z_788968399_UP1EM4Q0ULCTC_RTRMADP_3_ATHLETICS-LONDON-1777202693.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.563770"
     },
     {
+      "id": "b3fa54a98f005d966abaa55e85080bb2",
       "source": "Al Jazeera English",
+      "category": "world",
       "title": "Timeline: Trump assassination attempts and security incidents",
       "link": "https://www.aljazeera.com/news/2026/4/26/timeline-trump-assassination-attempts-and-security-incidents?traffic_source=rss",
       "published": "Sun, 26 Apr 2026 11:24:37 +0000",
       "summary": "Timeline reveals assassination attempts on Trump, including incidents during his presidency and campaign rallies.",
-      "fetched_at": "2026-04-26T12:50:01.675619"
+      "image": "https://www.aljazeera.com/wp-content/uploads/2024/07/2024-07-14T061108Z_879094409_RC2MU8A31DBU_RTRMADP_3_USA-ELECTION-TRUMP-1-1720948510.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.610881"
     },
     {
+      "id": "35134f978fc80b7da345153ff39818af",
       "source": "Al Jazeera English",
+      "category": "world",
       "title": "Mali’s Defence Minister Sadio Camara killed amid coordinated attacks",
       "link": "https://www.aljazeera.com/news/2026/4/26/malis-defence-minister-sadio-camara-killed-amid-coordinated-attacks?traffic_source=rss",
       "published": "Sun, 26 Apr 2026 10:50:12 +0000",
-      "summary": "Camara&#039;s house in the garrison town of Kati came under attack amid simultaneous attacks across the country.",
-      "fetched_at": "2026-04-26T12:50:01.675624"
+      "summary": "Death of key figure seen as big blow for Mali&#039;s military government as fighting with armed groups continues.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/AFP__20260426__A8YH76B__v1__HighRes__FilesMaliUnrest-1777205274.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.647434"
     },
     {
+      "id": "67c1b183175751ac9b5173f54f6ecd2d",
       "source": "Al Jazeera English",
+      "category": "world",
       "title": "What we know about the suspected ‘assassination attempt’ on Donald Trump",
       "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/what-we-know-about-the-suspected-assassination-attempt-on-donald-trump?traffic_source=rss",
       "published": "Sun, 26 Apr 2026 10:50:04 +0000",
       "summary": "A man armed is in custody after trying to rush the White House Correspondents&#039; Dinner, which Trump was attending.",
-      "fetched_at": "2026-04-26T12:50:01.675628"
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/clean-1777200590.jpg?resize=730%2C410&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.692656"
     },
     {
-      "source": "Al Jazeera English",
-      "title": "At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’",
-      "link": "https://www.aljazeera.com/news/2026/4/26/israeli-attacks-kill-at-least-four-palestinians-in-gaza?traffic_source=rss",
-      "published": "Sun, 26 Apr 2026 10:20:31 +0000",
-      "summary": "Israeli forces keep advancing further into western Gaza, slowly expanding the area of their control in the east.",
-      "fetched_at": "2026-04-26T12:50:01.675632"
+      "id": "132ee2062aa98724859016405f35f36f",
+      "source": "New York Times",
+      "category": "world",
+      "title": "Iranian Negotiators Set to Return to Pakistan to Try to Revive Truce Talks",
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/iranian-negotiators-set-to-return-to-pakistan-to-try-to-revive-truce-talks.html",
+      "published": "Sun, 26 Apr 2026 10:08:49 +0000",
+      "summary": "It was not clear whether President Trump would send his negotiators for a new round of discussions after abruptly calling off a trip by his top advisers on Saturday.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.898170"
     },
     {
-      "source": "Al Jazeera English",
-      "title": "Israel destroys solar panels in south Lebanon",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/israel-destroys-solar-panels-in-south-lebanon?traffic_source=rss",
-      "published": "Sun, 26 Apr 2026 10:17:53 +0000",
-      "summary": "Israel destroys solar panels in south Lebanon",
-      "fetched_at": "2026-04-26T12:50:01.675637"
+      "id": "4be486fbbd35eda967fdf0994d4fa275",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Higher prices could last for eight months after Iran war, minister says",
+      "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 09:54:53 GMT",
+      "summary": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/e770/live/74d53e30-414f-11f1-9d1f-0d69b57ee6a5.jpg",
+      "fetched_at": "2026-04-26T13:02:07.285994"
     },
     {
-      "source": "Al Jazeera English",
-      "title": "Yemen’s landmine crisis endures despite truce and de-mining efforts",
-      "link": "https://www.aljazeera.com/features/2026/4/26/yemens-landmine-crisis-endures-despite-truce-and-de-mining-efforts?traffic_source=rss",
-      "published": "Sun, 26 Apr 2026 09:43:42 +0000",
-      "summary": "Landmines in Yemen continue to kill and maim, even amid ceasefire efforts and ongoing de-mining initiatives.",
-      "fetched_at": "2026-04-26T12:50:01.675641"
+      "id": "22ecb9b5c3a8508da5fa0581e710ba15",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Watch: How gunfire sparked chaos at Trump press dinner",
+      "link": "https://www.bbc.com/news/videos/cgqkq18qqeeo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 09:43:42 GMT",
+      "summary": "President Trump and Vice-President Vance were rushed off the stage, after gunshots were heard at the event at the Washington Hilton hotel.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1fce/live/2de9c770-4154-11f1-b55d-0f258dce1735.jpg",
+      "fetched_at": "2026-04-26T13:02:07.223145"
     },
     {
-      "source": "Al Jazeera English",
-      "title": "Raghu Rai, legendary Indian photographer, dies at 83",
-      "link": "https://www.aljazeera.com/news/2026/4/26/raghu-rai-legendary-indian-photographer-dies-at-83?traffic_source=rss",
-      "published": "Sun, 26 Apr 2026 09:37:04 +0000",
-      "summary": "A Magnum Photos icon, Rai&#039;s photos preserved India&#039;s memory through some of its pathbreaking events spanning decades.",
-      "fetched_at": "2026-04-26T12:50:01.675645"
+      "id": "3313eac17885db2951dd8393a561da26",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Suspected gunman identified as 31-year-old Californian",
+      "link": "https://www.bbc.com/news/articles/cr717nglye0o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 09:37:39 GMT",
+      "summary": "The man arrested at the event attended by President Trump has been named in US media as Cole Tomas Allen from California.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/889e/live/5be129d0-4153-11f1-9d1f-0d69b57ee6a5.jpg",
+      "fetched_at": "2026-04-26T13:02:07.255160"
     },
     {
-      "source": "Al Jazeera English",
-      "title": "What to know about Cole Allen, alleged WH correspondents’ dinner shooter",
-      "link": "https://www.aljazeera.com/news/2026/4/26/who-is-the-suspected-correspondent-dinner-shooter-cole-tomas-allen?traffic_source=rss",
-      "published": "Sun, 26 Apr 2026 09:08:56 +0000",
-      "summary": "Donald Trump evacuated from stage after firing at media gala; suspect Cole Tomas Allen in custody.",
-      "fetched_at": "2026-04-26T12:50:01.675650"
+      "id": "8424cd4ed8831382bf523c3052bbb8d3",
+      "source": "New York Times",
+      "category": "world",
+      "title": "Trump Describes His Mind-Set After Shooting at White House Correspondents’ Dinner",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/trump-shooting-gunman-correspondents-dinner.html",
+      "published": "Sun, 26 Apr 2026 09:20:15 +0000",
+      "summary": "Very little was clear about what had happened at the Washington Hilton on Saturday night. But the president wanted to talk about it.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.543559"
     },
     {
-      "source": "Al Jazeera English",
-      "title": "Chornobyl’s surviving ‘liquidators’ return 40 years after nuclear disaster",
-      "link": "https://www.aljazeera.com/gallery/2026/4/26/survivors-return-to-chernobyl-40-years-after-devastating-explosion?traffic_source=rss",
-      "published": "Sun, 26 Apr 2026 08:52:51 +0000",
-      "summary": "About 600,000 soldiers, firefighters, engineers, miners and medics cleaned up after the nuclear plant explosion.",
-      "fetched_at": "2026-04-26T12:50:01.675654"
+      "id": "a2fc789609c099ba2f11f279670d1c1b",
+      "source": "New York Times",
+      "category": "world",
+      "title": "U.S. Sanctions Zigzag in New World of Economic Warfare",
+      "link": "https://www.nytimes.com/2026/04/26/business/economy/us-iran-russia-oil-sanctions.html",
+      "published": "Sun, 26 Apr 2026 09:02:29 +0000",
+      "summary": "With oil prices in mind, the Trump administration has deployed a haphazard approach to sanctions on Russia and Iran.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.656225"
     },
     {
+      "id": "2d80cc10ad7045643e922cd9f239adc4",
+      "source": "New York Times",
+      "category": "world",
+      "title": "California Man Identified as Cole Tomas Allen in Custody After Shooting at Dinner Attended by Trump",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/correspondents-dinner-shooting-suspect-california-man.html",
+      "published": "Sun, 26 Apr 2026 04:57:55 +0000",
+      "summary": "Shots were fired at the hotel hosting the White House correspondents’ dinner. Authorities said the attack was carried out by a lone gunman who was brought down by the Secret Service.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.464378"
+    },
+    {
+      "id": "1935cc7a1d49d410ffd0baebf03edfda",
+      "source": "New York Times",
+      "category": "world",
+      "title": "How the War in Iran Is Draining the U.S. of Critical Weapons",
+      "link": "https://www.nytimes.com/video/us/politics/100000010857432/how-the-war-in-iran-is-draining-the-us-of-critical-weapons.html",
+      "published": "Sat, 25 Apr 2026 23:39:30 +0000",
+      "summary": "The United States has blown through weapons as the cost of the war in Iran has hit nearly $1 billion a day. Our national security correspondent Eric Schmitt explains how American costs may go beyond the financial.",
+      "image": "https://static01.nyt.com/images/2026/04/28/us/politics/RV_Thumbnail-4/RV_Thumbnail-4--jumbo.png?auto=webp&amp;quality=75",
+      "fetched_at": "2026-04-26T13:02:10.797489"
+    },
+    {
+      "id": "6a08440331c507ea9c1359f2b15199ad",
       "source": "The Guardian",
+      "category": "world",
       "title": "Militants and separatists launch coordinated attacks across Mali",
       "link": "https://www.theguardian.com/world/2026/apr/25/militants-and-separatists-launch-coordinated-attacks-across-mali",
       "published": "Sat, 25 Apr 2026 20:22:14 GMT",
-      "summary": "<p>Al-Qaida-linked group JNIM claims responsibility for strikes on airport in capital, Bamako and four other cities</p><p>Islamic militants and separatists attacked several locations in Mali’s capital",
-      "fetched_at": "2026-04-26T12:50:02.562050"
+      "summary": "<p>Al-Qaida-linked group JNIM claims responsibility for strikes on airport in capital, Bamako and four other cities</p><p>Islamic militants and separatists attacked several locations in Mali’s capital and other cities on Saturday in one of the largest coordinated attacks in the country in recent yea...",
+      "image": "https://i.guim.co.uk/img/media/082ceb589732191afe763335e5f85e6ab8d5be20/272_0_4165_3333/master/4165.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=28b64f01e3397f1ac6efb653d9c0018d",
+      "fetched_at": "2026-04-26T13:02:08.403273"
     },
     {
+      "id": "129d8c33a9ea57d9b787f4f501dd1c31",
       "source": "The Guardian",
+      "category": "world",
       "title": "‘Astonishing’ discovery could help save children from deadly disfiguring condition",
       "link": "https://www.theguardian.com/global-development/2026/apr/25/discovery-children-fatal-disfiguring-disease-noma-unknown-bacteria",
       "published": "Sat, 25 Apr 2026 09:00:41 GMT",
-      "summary": "<p>A previously unknown species of bacteria found in patients with noma could be key to creating treatments for the neglected tropical disease</p><p>The “astonishing” discovery of a new bacterium coul",
-      "fetched_at": "2026-04-26T12:50:02.562064"
+      "summary": "<p>A previously unknown species of bacteria found in patients with noma could be key to creating treatments for the neglected tropical disease</p><p>The “astonishing” discovery of a new bacterium could open the door to better ways to prevent, detect and treat a fatal and disfiguring childhood diseas...",
+      "image": "https://i.guim.co.uk/img/media/e8156517a54fa1b3b8e7629e6c28b0792f291a7a/248_0_2504_2004/master/2504.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=20326963951eb99f078c8b2fc2bc82cd",
+      "fetched_at": "2026-04-26T13:02:08.451297"
     },
     {
+      "id": "093e68d9ba74a0fec1c4ea50de86376b",
       "source": "The Guardian",
+      "category": "world",
       "title": "US millionaire big-game hunter dies after being crushed by elephants",
       "link": "https://www.theguardian.com/us-news/2026/apr/24/millionaire-hunter-dies-elephants-gabon",
       "published": "Fri, 24 Apr 2026 18:09:03 GMT",
-      "summary": "<p>Ernie Dosio, a 75-year-old vineyard owner, was hunting an antelope species in Africa when the incident occured</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-br",
-      "fetched_at": "2026-04-26T12:50:02.562069"
+      "summary": "<p>Ernie Dosio, a 75-year-old vineyard owner, was hunting an antelope species in Africa when the incident occured</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRS...",
+      "image": "https://i.guim.co.uk/img/media/3ffa0a3ff174388aa44b490589b57c4667ed6d90/528_345_2903_2322/master/2903.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=425742aadf1dbf30ee2752517606fa29",
+      "fetched_at": "2026-04-26T13:02:08.636392"
     },
     {
+      "id": "b9c0f61ccceb70720790d11920f6b194",
+      "source": "CNN",
+      "category": "world",
+      "title": "Trump pleads not guilty to 34 felony counts",
+      "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+      "published": "",
+      "summary": "",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230331140346-donald-trump-230304.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:09.402075"
+    },
+    {
+      "id": "77d469185f75be6d83c123850c70e7e3",
+      "source": "CNN",
+      "category": "world",
+      "title": "READ: Trump indictment related to hush money payment",
+      "link": "https://cnn.it/411KYN7",
+      "published": "",
+      "summary": "",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230404161048-02-trump-indictment-unsealed.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:10.158185"
+    },
+    {
+      "id": "214467aa204079f134c5ab8b99d391fb",
+      "source": "CNN",
+      "category": "world",
+      "title": "Russian authorities detain suspect over St. Petersburg cafe blast",
+      "link": "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+      "published": "",
+      "summary": "",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230402121439-03-ukraine-counter-offensive.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:10.212582"
+    }
+  ],
+  "iran_news": [],
+  "all_news": [
+    {
+      "id": "0ac2632cdba3d95747411570d424a316",
       "source": "The Guardian",
+      "category": "world",
       "title": "British woman died in Ghana trying to recoup money from scammers, inquest told",
       "link": "https://www.theguardian.com/uk-news/2026/apr/22/british-woman-died-in-ghana-trying-to-recoup-money-from-scammers-inquest-told",
       "published": "Wed, 22 Apr 2026 16:13:00 GMT",
-      "summary": "<p>Janet Fordham died in crash after travelling to see man who claimed he would help to recover money from earlier scams</p><p>A British woman who was scammed out of up to £1m in a string of so-called",
-      "fetched_at": "2026-04-26T12:50:02.562075"
+      "summary": "<p>Janet Fordham died in crash after travelling to see man who claimed he would help to recover money from earlier scams</p><p>A British woman who was scammed out of up to £1m in a string of so-called romance frauds died in a road crash after travelling to west Africa to try to recoup some of her lo...",
+      "image": "https://i.guim.co.uk/img/media/16209a506c11d1509d1083ae98489af2d6617fdf/192_0_705_564/master/705.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=64a8795f71575b2bd568089dc35a5db6",
+      "fetched_at": "2026-04-26T13:02:08.835078"
     },
     {
+      "id": "dd002be6ebeb471976d84bf6387686bf",
       "source": "The Guardian",
+      "category": "world",
       "title": "Heatwaves, floods and wildfires pose rising threat to democracy, report finds",
       "link": "https://www.theguardian.com/global-development/2026/apr/22/climate-change-extreme-weather-heatwaves-floods-wildfires-threat-democracy-elections",
       "published": "Wed, 22 Apr 2026 05:00:09 GMT",
-      "summary": "<p>Research shows natural hazards linked to climate crisis disrupted 23 elections in 18 countries in 2024</p><p>Democracy is under mounting threat from the climate crisis, with new analysis documentin",
-      "fetched_at": "2026-04-26T12:50:02.562080"
+      "summary": "<p>Research shows natural hazards linked to climate crisis disrupted 23 elections in 18 countries in 2024</p><p>Democracy is under mounting threat from the climate crisis, with new analysis documenting how elections are increasingly shaped not only by political forces but also by floods, wildfires a...",
+      "image": "https://i.guim.co.uk/img/media/adfe0d3b34829cc18f9724cb8981307dc8eafa02/338_0_4677_3744/master/4677.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=98aa7ab8b3967f7cb6b624ca843ce12a",
+      "fetched_at": "2026-04-26T13:02:09.043377"
     },
     {
-      "source": "The Guardian",
-      "title": "What counts as the woods? Judge axes Nova Scotia’s ban that defied ‘commonsense definitions’",
-      "link": "https://www.theguardian.com/world/2026/apr/25/canada-nova-scotia-wildfire-woods-ban",
-      "published": "Sat, 25 Apr 2026 14:00:47 GMT",
-      "summary": "<p>The court sided with a Canadian hiker who deliberately challenged the order imposed to curb spread of wildfires</p><p>As wildfires raged across Nova Scotia last summer, the <a href=\"https://www.the",
-      "fetched_at": "2026-04-26T12:50:02.562085"
+      "id": "69f8c88dd2598af1a22ae776257c624f",
+      "source": "CNN",
+      "category": "world",
+      "title": "What to know about the Trump indictment on the eve of his court appearance",
+      "link": "https://www.cnn.com/collections/intl-trump-040223/",
+      "published": "Wed, 05 Apr 2023 22:50:06 GMT",
+      "summary": "",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:09.743388"
     },
     {
-      "source": "The Guardian",
-      "title": "Altman apologizes after OpenAI failed to alert police before fatal Canada shooting",
-      "link": "https://www.theguardian.com/us-news/2026/apr/25/altman-apologizes-after-openai-failed-to-alert-police-before-fatal-canada-shooting",
-      "published": "Sat, 25 Apr 2026 02:13:21 GMT",
-      "summary": "<p>OpenAI said the company had identified an account using abuse-detection efforts, but determined at the time it didn’t meet threshold for legal referral</p><p>The head of OpenAI has written a letter",
-      "fetched_at": "2026-04-26T12:50:02.562090"
+      "id": "d01a2eb4219ac7db6793013ff5e37b40",
+      "source": "CNN",
+      "category": "world",
+      "title": "Haberman reveals why Trump attacked judge and his family in speech",
+      "link": "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+      "published": "Wed, 05 Apr 2023 13:30:09 GMT",
+      "summary": "CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230405085526-maggie-haberman.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:09.459543"
     },
     {
-      "source": "The Guardian",
-      "title": "US military kills two more people in strike on alleged drug boat in Pacific",
-      "link": "https://www.theguardian.com/us-news/2026/apr/24/us-military-strike-boat-pacific",
-      "published": "Sat, 25 Apr 2026 02:03:31 GMT",
-      "summary": "<p>Small boat destroyed in video posted on social media as US campaign has killed at least 178 people since September</p><p>The US military <a href=\"https://x.com/Southcom/status/2047843084956750278\">",
-      "fetched_at": "2026-04-26T12:50:02.562095"
+      "id": "2e98a31da32b03f58d2c0b160f995254",
+      "source": "The Independent",
+      "category": "world",
+      "title": "Two potatoes and seven cubes of tuna: The bad hospital food ‘hampering’ patients’ recovery",
+      "link": "https://www.independent.co.uk/news/uk/home-news/nhs-hospital-food-waste-nutrition-b2877498.html",
+      "published": "Sun, 26 Apr 2026 12:51:15 GMT",
+      "summary": "<p>Patients tell Jane Dalton of their horrifying experiences as figures show the amount of NHS food being wasted is on the rise </p>",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/03/11/jane-dalton.png?quality=75&width=137&auto=webp",
+      "fetched_at": "2026-04-26T13:02:11.130510"
     },
     {
-      "source": "The Guardian",
-      "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
-      "link": "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo",
-      "published": "Sat, 25 Apr 2026 01:34:25 GMT",
-      "summary": "<p>Internal email proposes US should reassess support for UK claim to islands because of lack of support for Iran war</p><ul><li><p><a href=\"https://viewer.gutools.co.uk/politics/live/2026/apr/24/keir",
-      "fetched_at": "2026-04-26T12:50:02.562101"
+      "id": "3ad4622bc987a8720c83a533b3fedbd3",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Sabastian Sawe smashes two-hour barrier to make history at London Marathon",
+      "link": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 12:39:49 GMT",
+      "summary": "Sabastian Sawe makes history at the London Marathon as the first person to run a sub-two-hour marathon in a competitive race.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b5ee/live/d37abd10-1d33-11f1-801d-ed3cff6bf876.jpg",
+      "fetched_at": "2026-04-26T13:02:07.318411"
     },
     {
+      "id": "a893b89cd48b54111961d7860ebbcb6c",
+      "source": "Al Jazeera English",
+      "category": "world",
+      "title": "Syria puts first Assad-era official on trial in Damascus",
+      "link": "https://www.aljazeera.com/news/2026/4/26/syria-puts-al-assad-era-officials-on?traffic_source=rss",
+      "published": "Sun, 26 Apr 2026 12:31:50 +0000",
+      "summary": "Atef Najib, ex-head of political security in Deraa province, is charged with &#039;crimes against the Syrian people&#039;.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-26T083517Z_1105078244_RC2WWKAW30O3_RTRMADP_3_SYRIA-POLITICS-TRIAL-1777201890.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.513283"
+    },
+    {
+      "id": "9ce997ae4c2c0904fc543b02a9ecdce5",
+      "source": "The Independent",
+      "category": "world",
+      "title": "King’s security for US state visit to be reviewed after shooting at Trump dinner",
+      "link": "https://www.independent.co.uk/news/uk/politics/donald-trump-shooting-king-charles-state-visit-b2965101.html",
+      "published": "Sun, 26 Apr 2026 12:12:51 GMT",
+      "summary": "<p>Buckingham Palace said talks are taking place to review ‘what degree the events of Saturday evening may or may not impact on the operational planning for the visit’</p>",
+      "image": "https://static.independent.co.uk/2026/04/23/17/2235470983.jpg",
+      "fetched_at": "2026-04-26T13:02:11.239541"
+    },
+    {
+      "id": "3010b334c0ae77d9fc5c9e256a81b83b",
+      "source": "The Independent",
+      "category": "world",
+      "title": "Girl, 6, dies after two children hit by car in Scottish town",
+      "link": "https://www.independent.co.uk/news/uk/home-news/paisley-renfrewshire-police-incident-b2965154.html",
+      "published": "Sun, 26 Apr 2026 12:08:09 GMT",
+      "summary": "<p>The six-year-old was pronounced dead at the scene</p>",
+      "image": "https://static.independent.co.uk/2026/04/18/17/5beb48d693edde87c32926e415fbfd3cY29udGVudHNlYXJjaGFwaSwxNzc2NjEyMDYw-2.49332281.jpg",
+      "fetched_at": "2026-04-26T13:02:11.352991"
+    },
+    {
+      "id": "e77065792e76cb0c8b75d9587f6dddd7",
+      "source": "The Independent",
+      "category": "world",
+      "title": "‘Very reasonable’ for King Charles to speak to Trump about Falklands row",
+      "link": "https://www.independent.co.uk/news/uk/politics/king-charles-trump-falklands-starmer-row-b2965150.html",
+      "published": "Sun, 26 Apr 2026 11:53:17 GMT",
+      "summary": "<p>Downing Street has insisted the islands’ sovereignty is ‘not in question’, but Argentina has renewed calls for talks with the UK over the Falklands</p>",
+      "image": "https://static.independent.co.uk/2026/04/23/18/fd36bb5788ca0f2331f67fbc92c0e54bY29udGVudHNlYXJjaGFwaSwxNzc3MDUwMTQ1-2.81662999.jpg",
+      "fetched_at": "2026-04-26T13:02:11.394500"
+    },
+    {
+      "id": "65f05d1764eca7a79cecdcffc5f6938d",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Palace holding talks over plans for King's US visit after Washington shooting",
+      "link": "https://www.bbc.com/news/articles/cz0e0rn179eo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 11:45:06 GMT",
+      "summary": "The King is \"being kept fully informed of developments\" after the shooting, Buckingham Palace says.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0e0d/live/dd4fe010-414e-11f1-9d1f-0d69b57ee6a5.jpg",
+      "fetched_at": "2026-04-26T13:02:07.376212"
+    },
+    {
+      "id": "c070590aca88903a13ef8e363c9d6511",
+      "source": "The Independent",
+      "category": "world",
+      "title": "Starmer insists ‘vast majority’ of Labour MPs support him despite Mandelson scandal",
+      "link": "https://www.independent.co.uk/news/uk/politics/keir-starmer-peter-mandelson-labour-mps-b2965148.html",
+      "published": "Sun, 26 Apr 2026 11:39:57 GMT",
+      "summary": "<p>As the prime minister faces existential questions about his future in power, he said he still believes he can win the next election</p>",
+      "image": "https://static.independent.co.uk/2026/04/26/11/01440fd50eaccf51648403ef26ea10e0Y29udGVudHNlYXJjaGFwaSwxNzc3Mjg0MTUz-2.84380832.jpg",
+      "fetched_at": "2026-04-26T13:02:11.501721"
+    },
+    {
+      "id": "94cce1cdedee9f7f33dc965c2c51e4ca",
+      "source": "Al Jazeera English",
+      "category": "world",
+      "title": "Kenya’s Sawe is world’s first man to run a sub-two-hour marathon in London",
+      "link": "https://www.aljazeera.com/sports/2026/4/26/kenyas-sawe-is-worlds-first-man-to-run-a-sub-two-hour-marathon-in-london?traffic_source=rss",
+      "published": "Sun, 26 Apr 2026 11:27:52 +0000",
+      "summary": "Sebastian Sawe breaks Kelvin Kiptum’s previous world record of 2:00:35; Ethiopia&#039;s Assefa retains her women&#039;s crown.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-26T110050Z_788968399_UP1EM4Q0ULCTC_RTRMADP_3_ATHLETICS-LONDON-1777202693.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.563770"
+    },
+    {
+      "id": "b3fa54a98f005d966abaa55e85080bb2",
+      "source": "Al Jazeera English",
+      "category": "world",
+      "title": "Timeline: Trump assassination attempts and security incidents",
+      "link": "https://www.aljazeera.com/news/2026/4/26/timeline-trump-assassination-attempts-and-security-incidents?traffic_source=rss",
+      "published": "Sun, 26 Apr 2026 11:24:37 +0000",
+      "summary": "Timeline reveals assassination attempts on Trump, including incidents during his presidency and campaign rallies.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2024/07/2024-07-14T061108Z_879094409_RC2MU8A31DBU_RTRMADP_3_USA-ELECTION-TRUMP-1-1720948510.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.610881"
+    },
+    {
+      "id": "35134f978fc80b7da345153ff39818af",
+      "source": "Al Jazeera English",
+      "category": "world",
+      "title": "Mali’s Defence Minister Sadio Camara killed amid coordinated attacks",
+      "link": "https://www.aljazeera.com/news/2026/4/26/malis-defence-minister-sadio-camara-killed-amid-coordinated-attacks?traffic_source=rss",
+      "published": "Sun, 26 Apr 2026 10:50:12 +0000",
+      "summary": "Death of key figure seen as big blow for Mali&#039;s military government as fighting with armed groups continues.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/AFP__20260426__A8YH76B__v1__HighRes__FilesMaliUnrest-1777205274.jpg?resize=770%2C513&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.647434"
+    },
+    {
+      "id": "67c1b183175751ac9b5173f54f6ecd2d",
+      "source": "Al Jazeera English",
+      "category": "world",
+      "title": "What we know about the suspected ‘assassination attempt’ on Donald Trump",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/what-we-know-about-the-suspected-assassination-attempt-on-donald-trump?traffic_source=rss",
+      "published": "Sun, 26 Apr 2026 10:50:04 +0000",
+      "summary": "A man armed is in custody after trying to rush the White House Correspondents&#039; Dinner, which Trump was attending.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/clean-1777200590.jpg?resize=730%2C410&amp;quality=80",
+      "fetched_at": "2026-04-26T13:02:07.692656"
+    },
+    {
+      "id": "132ee2062aa98724859016405f35f36f",
+      "source": "New York Times",
+      "category": "world",
+      "title": "Iranian Negotiators Set to Return to Pakistan to Try to Revive Truce Talks",
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/iranian-negotiators-set-to-return-to-pakistan-to-try-to-revive-truce-talks.html",
+      "published": "Sun, 26 Apr 2026 10:08:49 +0000",
+      "summary": "It was not clear whether President Trump would send his negotiators for a new round of discussions after abruptly calling off a trip by his top advisers on Saturday.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.898170"
+    },
+    {
+      "id": "4be486fbbd35eda967fdf0994d4fa275",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Higher prices could last for eight months after Iran war, minister says",
+      "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 09:54:53 GMT",
+      "summary": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/e770/live/74d53e30-414f-11f1-9d1f-0d69b57ee6a5.jpg",
+      "fetched_at": "2026-04-26T13:02:07.285994"
+    },
+    {
+      "id": "22ecb9b5c3a8508da5fa0581e710ba15",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Watch: How gunfire sparked chaos at Trump press dinner",
+      "link": "https://www.bbc.com/news/videos/cgqkq18qqeeo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 09:43:42 GMT",
+      "summary": "President Trump and Vice-President Vance were rushed off the stage, after gunshots were heard at the event at the Washington Hilton hotel.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1fce/live/2de9c770-4154-11f1-b55d-0f258dce1735.jpg",
+      "fetched_at": "2026-04-26T13:02:07.223145"
+    },
+    {
+      "id": "3313eac17885db2951dd8393a561da26",
+      "source": "BBC News",
+      "category": "world",
+      "title": "Suspected gunman identified as 31-year-old Californian",
+      "link": "https://www.bbc.com/news/articles/cr717nglye0o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 26 Apr 2026 09:37:39 GMT",
+      "summary": "The man arrested at the event attended by President Trump has been named in US media as Cole Tomas Allen from California.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/889e/live/5be129d0-4153-11f1-9d1f-0d69b57ee6a5.jpg",
+      "fetched_at": "2026-04-26T13:02:07.255160"
+    },
+    {
+      "id": "8424cd4ed8831382bf523c3052bbb8d3",
+      "source": "New York Times",
+      "category": "world",
+      "title": "Trump Describes His Mind-Set After Shooting at White House Correspondents’ Dinner",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/trump-shooting-gunman-correspondents-dinner.html",
+      "published": "Sun, 26 Apr 2026 09:20:15 +0000",
+      "summary": "Very little was clear about what had happened at the Washington Hilton on Saturday night. But the president wanted to talk about it.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.543559"
+    },
+    {
+      "id": "a2fc789609c099ba2f11f279670d1c1b",
+      "source": "New York Times",
+      "category": "world",
+      "title": "U.S. Sanctions Zigzag in New World of Economic Warfare",
+      "link": "https://www.nytimes.com/2026/04/26/business/economy/us-iran-russia-oil-sanctions.html",
+      "published": "Sun, 26 Apr 2026 09:02:29 +0000",
+      "summary": "With oil prices in mind, the Trump administration has deployed a haphazard approach to sanctions on Russia and Iran.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.656225"
+    },
+    {
+      "id": "2d80cc10ad7045643e922cd9f239adc4",
+      "source": "New York Times",
+      "category": "world",
+      "title": "California Man Identified as Cole Tomas Allen in Custody After Shooting at Dinner Attended by Trump",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/correspondents-dinner-shooting-suspect-california-man.html",
+      "published": "Sun, 26 Apr 2026 04:57:55 +0000",
+      "summary": "Shots were fired at the hotel hosting the White House correspondents’ dinner. Authorities said the attack was carried out by a lone gunman who was brought down by the Secret Service.",
+      "image": "",
+      "fetched_at": "2026-04-26T13:02:10.464378"
+    },
+    {
+      "id": "1935cc7a1d49d410ffd0baebf03edfda",
+      "source": "New York Times",
+      "category": "world",
+      "title": "How the War in Iran Is Draining the U.S. of Critical Weapons",
+      "link": "https://www.nytimes.com/video/us/politics/100000010857432/how-the-war-in-iran-is-draining-the-us-of-critical-weapons.html",
+      "published": "Sat, 25 Apr 2026 23:39:30 +0000",
+      "summary": "The United States has blown through weapons as the cost of the war in Iran has hit nearly $1 billion a day. Our national security correspondent Eric Schmitt explains how American costs may go beyond the financial.",
+      "image": "https://static01.nyt.com/images/2026/04/28/us/politics/RV_Thumbnail-4/RV_Thumbnail-4--jumbo.png?auto=webp&amp;quality=75",
+      "fetched_at": "2026-04-26T13:02:10.797489"
+    },
+    {
+      "id": "6a08440331c507ea9c1359f2b15199ad",
       "source": "The Guardian",
-      "title": "Florida officials investigate planned ‘Sloth World’ attraction after 31 sloths die in warehouse",
-      "link": "https://www.theguardian.com/us-news/2026/apr/24/florida-sloth-deaths-tourist-attraction",
-      "published": "Fri, 24 Apr 2026 13:56:43 GMT",
-      "summary": "<p>Languorous tree dwellers from Guyana and Peru died from ‘cold stun’ in warehouse with no power or running water</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-b",
-      "fetched_at": "2026-04-26T12:50:02.562106"
+      "category": "world",
+      "title": "Militants and separatists launch coordinated attacks across Mali",
+      "link": "https://www.theguardian.com/world/2026/apr/25/militants-and-separatists-launch-coordinated-attacks-across-mali",
+      "published": "Sat, 25 Apr 2026 20:22:14 GMT",
+      "summary": "<p>Al-Qaida-linked group JNIM claims responsibility for strikes on airport in capital, Bamako and four other cities</p><p>Islamic militants and separatists attacked several locations in Mali’s capital and other cities on Saturday in one of the largest coordinated attacks in the country in recent yea...",
+      "image": "https://i.guim.co.uk/img/media/082ceb589732191afe763335e5f85e6ab8d5be20/272_0_4165_3333/master/4165.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=28b64f01e3397f1ac6efb653d9c0018d",
+      "fetched_at": "2026-04-26T13:02:08.403273"
+    },
+    {
+      "id": "129d8c33a9ea57d9b787f4f501dd1c31",
+      "source": "The Guardian",
+      "category": "world",
+      "title": "‘Astonishing’ discovery could help save children from deadly disfiguring condition",
+      "link": "https://www.theguardian.com/global-development/2026/apr/25/discovery-children-fatal-disfiguring-disease-noma-unknown-bacteria",
+      "published": "Sat, 25 Apr 2026 09:00:41 GMT",
+      "summary": "<p>A previously unknown species of bacteria found in patients with noma could be key to creating treatments for the neglected tropical disease</p><p>The “astonishing” discovery of a new bacterium could open the door to better ways to prevent, detect and treat a fatal and disfiguring childhood diseas...",
+      "image": "https://i.guim.co.uk/img/media/e8156517a54fa1b3b8e7629e6c28b0792f291a7a/248_0_2504_2004/master/2504.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=20326963951eb99f078c8b2fc2bc82cd",
+      "fetched_at": "2026-04-26T13:02:08.451297"
+    },
+    {
+      "id": "093e68d9ba74a0fec1c4ea50de86376b",
+      "source": "The Guardian",
+      "category": "world",
+      "title": "US millionaire big-game hunter dies after being crushed by elephants",
+      "link": "https://www.theguardian.com/us-news/2026/apr/24/millionaire-hunter-dies-elephants-gabon",
+      "published": "Fri, 24 Apr 2026 18:09:03 GMT",
+      "summary": "<p>Ernie Dosio, a 75-year-old vineyard owner, was hunting an antelope species in Africa when the incident occured</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRS...",
+      "image": "https://i.guim.co.uk/img/media/3ffa0a3ff174388aa44b490589b57c4667ed6d90/528_345_2903_2322/master/2903.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=425742aadf1dbf30ee2752517606fa29",
+      "fetched_at": "2026-04-26T13:02:08.636392"
+    },
+    {
+      "id": "b9c0f61ccceb70720790d11920f6b194",
+      "source": "CNN",
+      "category": "world",
+      "title": "Trump pleads not guilty to 34 felony counts",
+      "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+      "published": "",
+      "summary": "",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230331140346-donald-trump-230304.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:09.402075"
+    },
+    {
+      "id": "77d469185f75be6d83c123850c70e7e3",
+      "source": "CNN",
+      "category": "world",
+      "title": "READ: Trump indictment related to hush money payment",
+      "link": "https://cnn.it/411KYN7",
+      "published": "",
+      "summary": "",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230404161048-02-trump-indictment-unsealed.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:10.158185"
+    },
+    {
+      "id": "214467aa204079f134c5ab8b99d391fb",
+      "source": "CNN",
+      "category": "world",
+      "title": "Russian authorities detain suspect over St. Petersburg cafe blast",
+      "link": "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+      "published": "",
+      "summary": "",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230402121439-03-ukraine-counter-offensive.jpg?c=16x9&q=w_800,c_fill",
+      "fetched_at": "2026-04-26T13:02:10.212582"
     }
   ]
 }
