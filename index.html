@@ -1,1 +1,254 @@
 
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خبرخوان خودکار</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Tahoma', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .tab-btn {
+            flex: 1;
+            padding: 15px;
+            background: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .tab-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        
+        .news-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+        }
+        
+        .news-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #f0f0f0;
+        }
+        
+        .news-content {
+            padding: 20px;
+        }
+        
+        .news-source {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        
+        .news-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .news-summary {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .news-date {
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .no-image {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+        }
+        
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .stats {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📰 خبرخوان خودکار</h1>
+            <div class="last-updated" id="lastUpdated">در حال بارگذاری...</div>
+        </header>
+        
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('all')">همه اخبار</button>
+            <button class="tab-btn" onclick="showTab('world')">اخبار جهان</button>
+            <button class="tab-btn" onclick="showTab('iran')">اخبار ایران</button>
+        </div>
+        
+        <div class="stats" id="stats"></div>
+        
+        <div class="news-grid" id="newsGrid">
+            <p>در حال بارگذاری اخبار...</p>
+        </div>
+    </div>
+    
+    <script>
+        let newsData = null;
+        
+        // بارگذاری JSON
+        async function loadNews() {
+            try {
+                const response = await fetch('news.json');
+                newsData = await response.json();
+                displayNews('all');
+                updateStats();
+                document.getElementById('lastUpdated').innerHTML = `آخرین بروزرسانی: ${new Date(newsData.last_updated).toLocaleString('fa-IR')}`;
+            } catch (error) {
+                document.getElementById('newsGrid').innerHTML = '<p>خطا در بارگذاری اخبار. لطفاً دوباره تلاش کنید.</p>';
+                console.error(error);
+            }
+        }
+        
+        function updateStats() {
+            if (!newsData) return;
+            const statsHtml = `
+                📊 مجموع اخبار: ${newsData.total_news} | 
+                🌍 جهان: ${newsData.world_news.length} | 
+                🇮🇷 ایران: ${newsData.iran_news.length}
+            `;
+            document.getElementById('stats').innerHTML = statsHtml;
+        }
+        
+        function showTab(tab) {
+            // فعال کردن دکمه
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            displayNews(tab);
+        }
+        
+        function displayNews(tab) {
+            if (!newsData) return;
+            
+            let newsList = [];
+            if (tab === 'all') newsList = newsData.all_news;
+            else if (tab === 'world') newsList = newsData.world_news;
+            else if (tab === 'iran') newsList = newsData.iran_news;
+            
+            if (newsList.length === 0) {
+                document.getElementById('newsGrid').innerHTML = '<p>هیچ خبری یافت نشد.</p>';
+                return;
+            }
+            
+            const newsHtml = newsList.map(news => `
+                <div class="news-card" onclick="window.open('${news.link}', '_blank')">
+                    ${news.image ? 
+                        `<img src="${news.image}" class="news-image" alt="${news.title}" onerror="this.src='';">` : 
+                        `<div class="no-image">📰</div>`
+                    }
+                    <div class="news-content">
+                        <span class="news-source">${news.source}</span>
+                        <div class="news-title">${escapeHtml(news.title)}</div>
+                        <div class="news-summary">${escapeHtml(news.summary)}</div>
+                        <div class="news-date">📅 ${new Date(news.published).toLocaleDateString('fa-IR')}</div>
+                    </div>
+                </div>
+            `).join('');
+            
+            document.getElementById('newsGrid').innerHTML = newsHtml;
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        // بارگذاری اولیه
+        loadNews();
+        
+        // بروزرسانی هر 5 دقیقه
+        setInterval(loadNews, 300000);
+    </script>
+</body>
+</html>
