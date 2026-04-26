@@ -2,7 +2,7 @@ name: Fetch News Every Hour
 
 on:
   schedule:
-    - cron: '*/1 * * * *'   # هر ساعت اجرا شود
+    - cron: '*/5 * * * *'   # هر ساعت اجرا شود
   workflow_dispatch:       # امکان اجرای دستی
 
 jobs:
