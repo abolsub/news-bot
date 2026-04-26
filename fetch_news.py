@@ -138,7 +138,7 @@ def fetch_news_from_rss() -> Dict:
 
 def save_to_json(news_data: Dict):
     """ذخیره در فایل JSON (جایگزینی کامل)"""
-    with open("news.json", "w", encoding="utf-8") as f:
+    with open("1h-news.json", "w", encoding="utf-8") as f:
         json.dump(news_data, f, ensure_ascii=False, indent=2)
     
     print(f"\n✅ خبرهایی ذخیره شد:")
