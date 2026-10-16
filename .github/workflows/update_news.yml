@@ -2,7 +2,7 @@ name: Fetch News from RSS
 
 on:
   schedule:
-    - cron: '0 */8 * * *'   # هر 2 ساعت یکبار
+    - cron: '* */8 * * *'   # هر 2 ساعت یکبار
   workflow_dispatch:
 
 jobs:
